@@ -3,138 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Contatti — Romana Mia, Pizza al Taglio Gourmet Torino</title>
-    <meta name="description" content="Contatta Romana Mia: Via Marco Polo, 12/C, Torino. Telefono, WhatsApp, email e mappa. Aperto Lun–Sab 11:30–15:00.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Contatti — Romana Mia">
-    <meta property="og:description" content="Vieni a trovarci o contattaci. Via Marco Polo, 12/C, Torino.">
-    <meta name="theme-color" content="#0A0A0A">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="mobile-web-app-capable" content="yes">
+    <title>Contatti — LA FERMATA · Torino</title>
+    <meta name="description" content="Contatta LA FERMATA: telefono, email, indirizzo (Corso De Gasperi, Torino), Wi-Fi, orari di apertura. Prenota un tavolo su TheFork o chiamaci.">
+    <meta name="theme-color" content="#142B1E">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- ===== HEADER ===== -->
 <header id="main-header">
     <div class="container nav-wrapper">
-        <a href="index.html" class="logo">
-            <div class="logo-icon">🍕</div>
-            <span><em>Romana</em> Mia</span>
-        </a>
+        <a href="index.html" class="logo"><div class="logo-icon">🚋</div><span><em>La Fermata</em></span></a>
         <nav class="desktop-menu">
             <a href="index.html">Home</a>
             <a href="menu.html">Menu</a>
-            <a href="metodo.html">Il Metodo</a>
+            <a href="storia.html">Chi Siamo</a>
             <a href="contatti.html" class="active">Contatti</a>
         </nav>
         <div class="header-right">
             <a data-config-href="tel:{telefonoHref}" href="#" class="phone-cta">
                 <i class="fa-solid fa-phone"></i>
-                <span data-config="telefono">333 323 0516</span>
+                <span data-config="telefono">011 000 0000</span>
             </a>
-            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener">
-                <i class="fa-brands fa-whatsapp"></i> Ordina
+            <a data-config-href="{theforkUrl}" href="#" class="btn-red" target="_blank" rel="noopener">
+                <i class="fa-solid fa-calendar-check"></i> Prenota
             </a>
         </div>
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-            <span></span><span></span><span></span>
-        </button>
+        <button class="hamburger" id="hamburger" aria-label="Apri menu"><span></span><span></span><span></span></button>
     </div>
     <nav class="mobile-menu" id="mobile-menu">
         <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-        <a href="menu.html"><i class="fa-solid fa-pizza-slice"></i> Menu</a>
-        <a href="metodo.html"><i class="fa-solid fa-star"></i> Il Metodo</a>
+        <a href="menu.html"><i class="fa-solid fa-utensils"></i> Menu</a>
+        <a href="storia.html"><i class="fa-solid fa-book-open"></i> Chi Siamo</a>
         <a href="contatti.html" class="active"><i class="fa-solid fa-location-dot"></i> Contatti</a>
         <div class="mobile-cta">
             <a data-config-href="tel:{telefonoHref}" href="#" class="btn-outline"><i class="fa-solid fa-phone"></i> Chiama</a>
-            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Ordina su WhatsApp</a>
+            <a data-config-href="{theforkUrl}" href="#" class="btn-red" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-check"></i> Prenota un Tavolo</a>
         </div>
     </nav>
 </header>
 
-<!-- ===== PAGE HERO ===== -->
-<section class="page-hero">
+<!-- Page Hero -->
+<div class="page-hero">
     <div class="container">
         <div class="breadcrumb">
             <a href="index.html">Home</a>
-            <span>/</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
             <span>Contatti</span>
         </div>
-        <span class="hero-eyebrow">Vieni a Trovarci</span>
-        <h1>Contatti 📍</h1>
-        <p>Siamo nel cuore di Torino. Chiamaci, scrivici su WhatsApp o vieni direttamente al bancone!</p>
+        <h1>Dove Siamo 📍</h1>
+        <p>Lungo la Linea 15, a Torino. Vieni a trovarci o prenota un tavolo su TheFork.</p>
     </div>
-</section>
+</div>
 
-<!-- ===== QUICK ACTIONS ===== -->
+<!-- Quick Actions -->
 <section class="contact-actions-section">
     <div class="container">
         <div class="contact-actions-grid">
-            <a data-config-href="tel:{telefonoHref}" href="#" class="contact-action-card animate-on-scroll">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="contact-action-card">
                 <div class="contact-action-icon"><i class="fa-solid fa-phone"></i></div>
-                <strong>Chiamaci</strong>
-                <span data-config="telefono">333 323 0516</span>
+                <strong>Chiama Ora</strong>
+                <span data-config="telefono">011 000 0000</span>
             </a>
-            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="contact-action-card contact-action-whatsapp animate-on-scroll" target="_blank" rel="noopener">
+            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#"
+               class="contact-action-card contact-action-whatsapp" target="_blank" rel="noopener">
                 <div class="contact-action-icon"><i class="fa-brands fa-whatsapp"></i></div>
-                <strong>WhatsApp</strong>
-                <span>Ordina o chiedi info</span>
+                <strong>Scrivici su WhatsApp</strong>
+                <span>Risposta rapida</span>
             </a>
-            <a href="https://www.google.com/maps/dir/?api=1&destination=Via+Marco+Polo,+12C,+10129+Torino+TO" class="contact-action-card animate-on-scroll" target="_blank" rel="noopener">
-                <div class="contact-action-icon"><i class="fa-solid fa-route"></i></div>
-                <strong>Come Arrivare</strong>
-                <span>Indicazioni stradali</span>
+            <a data-config-href="{theforkUrl}" href="#" class="contact-action-card" target="_blank" rel="noopener">
+                <div class="contact-action-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <strong>Prenota su TheFork</strong>
+                <span>Scegli data e orario</span>
             </a>
         </div>
     </div>
 </section>
 
-<!-- ===== CONTACT SECTION ===== -->
-<section class="contact-section" id="preventivo">
+<!-- Map + Info -->
+<section class="contact-section">
     <div class="container">
         <div class="contact-grid">
-            <!-- Mappa e info compatte -->
-            <div class="contact-map-col animate-on-scroll">
-                <h2>Dove Siamo 📍</h2>
+            <!-- Colonna mappa e info -->
+            <div class="contact-map-col">
+                <h2>Come Arrivare</h2>
+                <div class="contact-address-bar">
+                    <p><i class="fa-solid fa-location-dot"></i> <strong data-config="indirizzo">Corso De Gasperi, 15</strong>, <span data-config="cap">10129</span> <span data-config="citta">Torino</span> (<span data-config="provincia">TO</span>)</p>
+                    <p><i class="fa-solid fa-train-subway"></i> Fermata Tram: <strong>Linea 15 — De Gasperi</strong></p>
+                    <p><i class="fa-solid fa-clock"></i> <span data-config="orariSettimana">Mar–Ven: 12:00–14:30 · 19:00–22:30</span></p>
+                    <p><i class="fa-solid fa-clock"></i> <span data-config="orariSabato">Sab–Dom: 12:00–15:00 · 19:00–23:00</span></p>
+                    <p style="color:var(--text-muted); font-style:italic;"><i class="fa-solid fa-circle-xmark" style="color:var(--text-muted)"></i> Lunedì: Chiuso</p>
+                </div>
                 <div class="contact-map-wrapper">
                     <div class="map-container">
                         <div id="map-placeholder">
                             <i class="fa-solid fa-map-location-dot"></i>
-                            <p>Per visualizzare la mappa è necessario accettare i cookie di Google Maps.</p>
-                            <button class="btn-load-map" id="btn-load-map">Mostra la Mappa</button>
+                            <p>Clicca per caricare la mappa Google Maps</p>
+                            <p style="font-size:0.75rem; margin-top:-4px;">Accetta i cookie per visualizzare la mappa</p>
+                            <button class="btn-load-map" onclick="localStorage.setItem('cookieConsent','accepted'); window.loadConsentedMap();">
+                                <i class="fa-solid fa-map"></i> Carica Mappa
+                            </button>
                         </div>
-                        <iframe id="map-iframe" title="Romana Mia su Google Maps" allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe id="map-iframe" title="Mappa LA FERMATA Torino" allowfullscreen loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" style="display:none;"></iframe>
                     </div>
                 </div>
-                <div class="contact-address-bar">
-                    <p><i class="fa-solid fa-location-dot"></i> <span data-config="indirizzo">Via Marco Polo, 12/C</span>, <span data-config="cap">10129</span> <span data-config="citta">Torino</span> (<span data-config="provincia">TO</span>)</p>
-                    <p><i class="fa-solid fa-clock"></i> <span data-config="orariSettimana">Lun–Sab: 11:30–15:00</span> · <span data-config="orariSabato">Domenica: Chiuso</span></p>
+                <!-- Wi-Fi Card -->
+                <div class="wifi-card animate-on-scroll">
+                    <i class="fa-solid fa-wifi"></i>
+                    <div class="wifi-card-info">
+                        <strong>Wi-Fi Gratuito per i Clienti</strong>
+                        <span data-config="wifiPassword">fermatadegasperipizzeriafarinata</span>
+                    </div>
+                </div>
+                <!-- Social Links -->
+                <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:4px; padding:20px 24px; margin-top:16px;" class="animate-on-scroll">
+                    <h4 style="font-size:1rem; color:var(--text-primary); margin-bottom:16px; font-family:'Cormorant Garamond',serif;">Seguici sui Social</h4>
+                    <div style="display:flex; flex-direction:column; gap:10px;">
+                        <a data-config-href="{instagram}" href="#" target="_blank" rel="noopener"
+                           style="display:flex; align-items:center; gap:12px; color:var(--text-secondary); font-size:0.9rem; transition:color 0.3s;">
+                            <i class="fa-brands fa-instagram" style="color:var(--accent); font-size:1.2rem; width:20px;"></i>
+                            @<span data-config="instagramHandle">lafermatatorino</span>
+                        </a>
+                        <a data-config-href="{facebook}" href="#" target="_blank" rel="noopener"
+                           style="display:flex; align-items:center; gap:12px; color:var(--text-secondary); font-size:0.9rem; transition:color 0.3s;">
+                            <i class="fa-brands fa-facebook-f" style="color:var(--accent); font-size:1.2rem; width:20px;"></i>
+                            <span data-config="facebookNome">La Fermata Torino</span>
+                        </a>
+                        <a data-config-href="{sitoWebUrl}" href="#" target="_blank" rel="noopener"
+                           style="display:flex; align-items:center; gap:12px; color:var(--text-secondary); font-size:0.9rem; transition:color 0.3s;">
+                            <i class="fa-solid fa-globe" style="color:var(--accent); font-size:1.2rem; width:20px;"></i>
+                            <span data-config="sitoWeb">lafermata.eu</span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Form colonna destra -->
+            <!-- Colonna form / prenotazione -->
             <div class="contact-form-card animate-on-scroll">
-                <h3>Scrivici un Messaggio 📝</h3>
-                <p class="contact-form-subtitle">Per ordini veloci usa WhatsApp! Risponderemo entro 24 ore via email.</p>
-                <form method="POST" action="grazie.html" name="contatti" data-netlify="true" netlify-honeypot="bot-field">
+                <h3>Prenota o Scrivici</h3>
+                <p class="contact-form-subtitle">Compila il modulo per informazioni o prenotazioni. Risponderemo entro poche ore.</p>
+
+                <!-- TheFork Widget Placeholder -->
+                <div class="thefork-box" style="margin-bottom:28px; padding:28px;">
+                    <h3 style="font-size:1.25rem; margin-bottom:8px;"><i class="fa-solid fa-calendar-check" style="color:var(--accent); margin-right:8px;"></i>Prenota su TheFork</h3>
+                    <p style="font-size:0.85rem; margin-bottom:16px;">Il modo più semplice per assicurarti un tavolo alla data e all'orario che preferisci.</p>
+                    <a data-config-href="{theforkUrl}" href="#" class="btn-red" target="_blank" rel="noopener" style="width:100%; justify-content:center;">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Apri TheFork
+                    </a>
+                </div>
+
+                <form name="contatti" method="POST" action="grazie.html" data-netlify="true" novalidate>
                     <input type="hidden" name="form-name" value="contatti">
-                    <p class="honeypot-field"><label>Non compilare: <input name="bot-field"></label></p>
+                    <div class="honeypot-field">
+                        <label>Non compilare questo campo: <input name="bot-field"></label>
+                    </div>
                     <div class="form-group">
                         <label for="nome">Nome e Cognome *</label>
-                        <input type="text" id="nome" name="nome" placeholder="Mario Rossi" required>
+                        <input type="text" id="nome" name="nome" required placeholder="Mario Rossi" autocomplete="name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" placeholder="mario@email.it" required>
+                        <input type="email" id="email" name="email" required placeholder="mario@esempio.it" autocomplete="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono-form">Telefono</label>
+                        <input type="tel" id="telefono-form" name="telefono" placeholder="011 000 0000" autocomplete="tel">
+                    </div>
+                    <div class="form-group">
+                        <label for="oggetto">Oggetto</label>
+                        <select id="oggetto" name="oggetto">
+                            <option value="">Seleziona un'opzione…</option>
+                            <option value="prenotazione">Prenotazione tavolo</option>
+                            <option value="info-menu">Informazioni sul menu</option>
+                            <option value="evento">Evento privato / gruppo</option>
+                            <option value="allergie">Allergie / intolleranze</option>
+                            <option value="altro">Altro</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <label for="messaggio">Messaggio *</label>
-                        <textarea id="messaggio" name="messaggio" placeholder="Ciao! Volevo chiedere..." required></textarea>
+                        <textarea id="messaggio" name="messaggio" rows="4" required placeholder="Scrivi qui il tuo messaggio…"></textarea>
                     </div>
                     <button type="submit" class="btn-red contact-submit-btn">
                         <i class="fa-solid fa-paper-plane"></i> Invia Messaggio
@@ -145,97 +195,76 @@
     </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+<!-- Footer -->
 <footer>
     <div class="container">
         <div class="footer-grid">
             <div class="footer-brand">
-                <a href="index.html" class="logo">
-                    <div class="logo-icon">🍕</div>
-                    <span><em>Romana</em> Mia</span>
-                </a>
-                <p>La vera pizza romana in teglia a Torino. Ingredienti DOP, impasto artigianale, scrocchiarella come da tradizione.</p>
+                <a href="index.html" class="logo"><div class="logo-icon">🚋</div><span><em>La Fermata</em></span></a>
+                <p>Farinata artigianale e pizza a doppia cottura. Fermata De Gasperi, Torino.</p>
                 <div class="footer-social">
-                    <a href="https://www.instagram.com/pizzeriaromanamia/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a data-config-href="https://www.google.com/maps/search/?api=1&query={mappaQuery}" href="#" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fa-brands fa-google"></i></a>
+                    <a data-config-href="{instagram}" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a data-config-href="{facebook}" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a data-config-href="{theforkUrl}" href="#" target="_blank" rel="noopener" aria-label="TheFork"><i class="fa-solid fa-calendar-check"></i></a>
+                </div>
+                <div class="footer-wifi">
+                    <div class="wifi-label"><i class="fa-solid fa-wifi"></i> Wi-Fi Clienti</div>
+                    <span class="wifi-pass" data-config="wifiPassword">fermatadegasperipizzeriafarinata</span>
                 </div>
             </div>
             <div class="footer-col">
                 <h4>Navigazione</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="metodo.html">Il Metodo</a></li>
-                    <li><a href="contatti.html">Contatti</a></li>
-                </ul>
+                <ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="storia.html">Chi Siamo</a></li><li><a href="contatti.html">Contatti</a></li></ul>
             </div>
             <div class="footer-col">
                 <h4>Orari</h4>
                 <ul>
-                    <li><span data-config="orariSettimana">Lun–Sab: 11:30–15:00</span></li>
-                    <li><span data-config="orariSabato">Domenica: Chiuso</span></li>
+                    <li><span data-config="orariSettimana">Mar–Ven: 12:00–14:30 · 19:00–22:30</span></li>
+                    <li><span data-config="orariSabato">Sab–Dom: 12:00–15:00 · 19:00–23:00</span></li>
+                    <li><span style="color:var(--text-muted);font-size:0.8rem;">Lunedì: Chiuso</span></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4>Contatti</h4>
                 <ul>
-                    <li><a data-config-href="tel:{telefonoHref}" href="#"><i class="fa-solid fa-phone fa-xs"></i> <span data-config="telefono">333 323 0516</span></a></li>
-                    <li><a href="mailto:info@romanamia.it"><i class="fa-solid fa-envelope fa-xs"></i> <span data-config="email">info@romanamia.it</span></a></li>
-                    <li><span><i class="fa-solid fa-location-dot fa-xs"></i> <span data-config="indirizzo">Via Marco Polo, 12/C</span>, <span data-config="citta">Torino</span></span></li>
+                    <li><a data-config-href="tel:{telefonoHref}" href="#"><i class="fa-solid fa-phone fa-xs"></i> <span data-config="telefono">011 000 0000</span></a></li>
+                    <li><a href="mailto:info@lafermata.eu"><i class="fa-solid fa-envelope fa-xs"></i> info@lafermata.eu</a></li>
+                    <li><a data-config-href="{sitoWebUrl}" href="#"><i class="fa-solid fa-globe fa-xs"></i> <span data-config="sitoWeb">lafermata.eu</span></a></li>
+                    <li><span><i class="fa-solid fa-location-dot fa-xs"></i> <span data-config="indirizzo">Corso De Gasperi, 15</span>, Torino</span></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© <span data-anno></span> <span data-config="nomeAzienda">Romana Mia</span> — P.IVA <span data-config="pIva">IT10123456789</span></p>
-            <div class="footer-legal">
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="cookie.html">Cookie Policy</a>
-            </div>
-            <p style="font-size:0.75rem; color:var(--text-muted); font-family:'Inter',sans-serif; margin-top:8px;">Design &amp; Sviluppo: <a href="https://www.linkedin.com/in/pierpaolo-careddu/" target="_blank" rel="noopener" style="color:var(--text-muted);">Pierpaolo Careddu</a></p>
+            <p>© <span data-anno></span> <span data-config="nomeAzienda">LA FERMATA</span> — P.IVA <span data-config="pIva">IT00000000000</span></p>
+            <div class="footer-legal"><a href="privacy.html">Privacy Policy</a><a href="cookie.html">Cookie Policy</a></div>
         </div>
     </div>
 </footer>
 
-<!-- ===== FLOATING WHATSAPP ===== -->
-<a id="whatsapp-float" data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" target="_blank" rel="noopener" aria-label="Ordina su WhatsApp">
-    <i class="fa-brands fa-whatsapp"></i>
-</a>
+<div class="sticky-prenota">
+    <a data-config-href="{theforkUrl}" href="#" target="_blank" rel="noopener">
+        <i class="fa-solid fa-calendar-check"></i> Prenota un Tavolo
+    </a>
+</div>
 
-<!-- ===== BACK TO TOP ===== -->
-<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Torna su">
-    <i class="fa-solid fa-chevron-up"></i>
-</button>
-
-<!-- ===== MOBILE BOTTOM NAV ===== -->
-<nav class="bottom-nav" aria-label="Navigazione principale">
-    <a href="index.html" class="bottom-nav-item">
-        <i class="fa-solid fa-house"></i>
-        <span>Home</span>
-    </a>
-    <a href="menu.html" class="bottom-nav-item">
-        <i class="fa-solid fa-pizza-slice"></i>
-        <span>Menu</span>
-    </a>
-    <a href="metodo.html" class="bottom-nav-item">
-        <i class="fa-solid fa-star"></i>
-        <span>Il Metodo</span>
-    </a>
-    <a href="contatti.html" class="bottom-nav-item active">
-        <i class="fa-solid fa-location-dot"></i>
-        <span>Contatti</span>
-    </a>
+<nav class="bottom-nav">
+    <a href="index.html" class="bottom-nav-item"><i class="fa-solid fa-house"></i><span>Home</span></a>
+    <a href="menu.html" class="bottom-nav-item"><i class="fa-solid fa-utensils"></i><span>Menu</span></a>
+    <a href="storia.html" class="bottom-nav-item"><i class="fa-solid fa-book-open"></i><span>Chi Siamo</span></a>
+    <a href="contatti.html" class="bottom-nav-item active"><i class="fa-solid fa-location-dot"></i><span>Contatti</span></a>
 </nav>
 
-<!-- ===== COOKIE BANNER ===== -->
 <div id="cookie-banner" style="display:none;">
-    <p>Utilizziamo cookie tecnici e, previo consenso, cookie di terze parti (Google Maps). 
-       <a href="cookie.html">Cookie Policy</a> · <a href="privacy.html">Privacy Policy</a></p>
+    <p>Utilizziamo cookie tecnici e cookie di terze parti (Google Maps) previo consenso. <a href="cookie.html">Cookie Policy</a></p>
     <div class="cookie-buttons">
         <button class="btn-cookie-reject" id="cookie-reject">Rifiuta</button>
         <button class="btn-cookie-accept" id="cookie-accept">Accetta</button>
     </div>
 </div>
+
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Torna su">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
 
 <script src="config.js"></script>
 <script>
@@ -246,59 +275,29 @@
         var btt = document.getElementById('back-to-top');
         if (btt) btt.classList.toggle('visible', window.scrollY > 300);
     }, { passive: true });
-
     var btn = document.getElementById('hamburger');
     var menu = document.getElementById('mobile-menu');
     if (btn && menu) {
         btn.addEventListener('click', function () { btn.classList.toggle('open'); menu.classList.toggle('open'); });
+        menu.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { btn.classList.remove('open'); menu.classList.remove('open'); }); });
     }
-
     if ('IntersectionObserver' in window) {
-        var animObserver = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                    animObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.12, rootMargin: '0px 0px -32px 0px' });
-        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
-            animObserver.observe(el);
-        });
-    } else {
-        function checkVisible() {
-            document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(function (el) {
-                if (el.getBoundingClientRect().top < window.innerHeight - 40) el.classList.add('visible');
-            });
-        }
-        window.addEventListener('scroll', checkVisible, { passive: true });
-        window.addEventListener('load', checkVisible);
-        setTimeout(checkVisible, 200);
+        var obs = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+        }, { threshold: 0.10 });
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) { obs.observe(el); });
     }
-
-    // Cookie banner
+    // Fallback: make ALL elements visible after 1s (handles full-page screenshots, slow JS, etc.)
+    setTimeout(function () {
+        document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(function(el) { el.classList.add('visible'); });
+    }, 800);
     var consent = localStorage.getItem('cookieConsent');
     var banner = document.getElementById('cookie-banner');
     if (!consent && banner) setTimeout(function () { banner.style.display = 'flex'; }, 1500);
-    var acceptBtn = document.getElementById('cookie-accept');
-    var rejectBtn = document.getElementById('cookie-reject');
-    if (acceptBtn) acceptBtn.addEventListener('click', function () {
-        localStorage.setItem('cookieConsent', 'accepted');
-        banner.style.display = 'none';
-        if (typeof window.loadConsentedMap === 'function') window.loadConsentedMap();
-    });
-    if (rejectBtn) rejectBtn.addEventListener('click', function () {
-        localStorage.setItem('cookieConsent', 'rejected');
-        banner.style.display = 'none';
-    });
-
-    // Pulsante carica mappa manualmente
-    var btnMap = document.getElementById('btn-load-map');
-    if (btnMap) btnMap.addEventListener('click', function () {
-        localStorage.setItem('cookieConsent', 'accepted');
-        if (typeof window.loadConsentedMap === 'function') window.loadConsentedMap();
-        banner.style.display = 'none';
-    });
+    var a = document.getElementById('cookie-accept');
+    var r = document.getElementById('cookie-reject');
+    if (a) a.addEventListener('click', function () { localStorage.setItem('cookieConsent','accepted'); banner.style.display='none'; if(typeof window.loadConsentedMap==='function') window.loadConsentedMap(); });
+    if (r) r.addEventListener('click', function () { localStorage.setItem('cookieConsent','rejected'); banner.style.display='none'; });
 })();
 </script>
 </body>
