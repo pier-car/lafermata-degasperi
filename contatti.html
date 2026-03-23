@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Contatti — Romana Mia, Pizza al Taglio Gourmet Torino</title>
+    <meta name="description" content="Contatta Romana Mia: Via Marco Polo, 12/C, Torino. Telefono, WhatsApp, email e mappa. Aperto Lun–Sab 11:30–15:00.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contatti — Romana Mia">
+    <meta property="og:description" content="Vieni a trovarci o contattaci. Via Marco Polo, 12/C, Torino.">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="main-header">
+    <div class="container nav-wrapper">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">🍕</div>
+            <span><em>Romana</em> Mia</span>
+        </a>
+        <nav class="desktop-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="metodo.html">Il Metodo</a>
+            <a href="contatti.html" class="active">Contatti</a>
+        </nav>
+        <div class="header-right">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="phone-cta">
+                <i class="fa-solid fa-phone"></i>
+                <span data-config="telefono">333 323 0516</span>
+            </a>
+            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Ordina
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="menu.html"><i class="fa-solid fa-pizza-slice"></i> Menu</a>
+        <a href="metodo.html"><i class="fa-solid fa-star"></i> Il Metodo</a>
+        <a href="contatti.html" class="active"><i class="fa-solid fa-location-dot"></i> Contatti</a>
+        <div class="mobile-cta">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="btn-outline"><i class="fa-solid fa-phone"></i> Chiama</a>
+            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Ordina su WhatsApp</a>
+        </div>
+    </nav>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Contatti</span>
+        </div>
+        <span class="hero-eyebrow">Vieni a Trovarci</span>
+        <h1>Contatti 📍</h1>
+        <p>Siamo nel cuore di Torino. Chiamaci, scrivici su WhatsApp o vieni direttamente al bancone!</p>
+    </div>
+</section>
+
+<!-- ===== QUICK ACTIONS ===== -->
+<section class="contact-actions-section">
+    <div class="container">
+        <div class="contact-actions-grid">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="contact-action-card animate-on-scroll">
+                <div class="contact-action-icon"><i class="fa-solid fa-phone"></i></div>
+                <strong>Chiamaci</strong>
+                <span data-config="telefono">333 323 0516</span>
+            </a>
+            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="contact-action-card contact-action-whatsapp animate-on-scroll" target="_blank" rel="noopener">
+                <div class="contact-action-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <strong>WhatsApp</strong>
+                <span>Ordina o chiedi info</span>
+            </a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Via+Marco+Polo,+12C,+10129+Torino+TO" class="contact-action-card animate-on-scroll" target="_blank" rel="noopener">
+                <div class="contact-action-icon"><i class="fa-solid fa-route"></i></div>
+                <strong>Come Arrivare</strong>
+                <span>Indicazioni stradali</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section" id="preventivo">
+    <div class="container">
+        <div class="contact-grid">
+            <!-- Mappa e info compatte -->
+            <div class="contact-map-col animate-on-scroll">
+                <h2>Dove Siamo 📍</h2>
+                <div class="contact-map-wrapper">
+                    <div class="map-container">
+                        <div id="map-placeholder">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <p>Per visualizzare la mappa è necessario accettare i cookie di Google Maps.</p>
+                            <button class="btn-load-map" id="btn-load-map">Mostra la Mappa</button>
+                        </div>
+                        <iframe id="map-iframe" title="Romana Mia su Google Maps" allowfullscreen loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-address-bar">
+                    <p><i class="fa-solid fa-location-dot"></i> <span data-config="indirizzo">Via Marco Polo, 12/C</span>, <span data-config="cap">10129</span> <span data-config="citta">Torino</span> (<span data-config="provincia">TO</span>)</p>
+                    <p><i class="fa-solid fa-clock"></i> <span data-config="orariSettimana">Lun–Sab: 11:30–15:00</span> · <span data-config="orariSabato">Domenica: Chiuso</span></p>
+                </div>
+            </div>
+
+            <!-- Form colonna destra -->
+            <div class="contact-form-card animate-on-scroll">
+                <h3>Scrivici un Messaggio 📝</h3>
+                <p class="contact-form-subtitle">Per ordini veloci usa WhatsApp! Risponderemo entro 24 ore via email.</p>
+                <form method="POST" action="grazie.html" name="contatti" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contatti">
+                    <p class="honeypot-field"><label>Non compilare: <input name="bot-field"></label></p>
+                    <div class="form-group">
+                        <label for="nome">Nome e Cognome *</label>
+                        <input type="text" id="nome" name="nome" placeholder="Mario Rossi" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="mario@email.it" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="messaggio">Messaggio *</label>
+                        <textarea id="messaggio" name="messaggio" placeholder="Ciao! Volevo chiedere..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-red contact-submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i> Invia Messaggio
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">🍕</div>
+                    <span><em>Romana</em> Mia</span>
+                </a>
+                <p>La vera pizza romana in teglia a Torino. Ingredienti DOP, impasto artigianale, scrocchiarella come da tradizione.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/pizzeriaromanamia/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a data-config-href="https://www.google.com/maps/search/?api=1&query={mappaQuery}" href="#" target="_blank" rel="noopener" aria-label="Google Maps"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigazione</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="metodo.html">Il Metodo</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Orari</h4>
+                <ul>
+                    <li><span data-config="orariSettimana">Lun–Sab: 11:30–15:00</span></li>
+                    <li><span data-config="orariSabato">Domenica: Chiuso</span></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contatti</h4>
+                <ul>
+                    <li><a data-config-href="tel:{telefonoHref}" href="#"><i class="fa-solid fa-phone fa-xs"></i> <span data-config="telefono">333 323 0516</span></a></li>
+                    <li><a href="mailto:info@romanamia.it"><i class="fa-solid fa-envelope fa-xs"></i> <span data-config="email">info@romanamia.it</span></a></li>
+                    <li><span><i class="fa-solid fa-location-dot fa-xs"></i> <span data-config="indirizzo">Via Marco Polo, 12/C</span>, <span data-config="citta">Torino</span></span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span data-anno></span> <span data-config="nomeAzienda">Romana Mia</span> — P.IVA <span data-config="pIva">IT10123456789</span></p>
+            <div class="footer-legal">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="cookie.html">Cookie Policy</a>
+            </div>
+            <p style="font-size:0.75rem; color:var(--text-muted); font-family:'Inter',sans-serif; margin-top:8px;">Design &amp; Sviluppo: <a href="https://www.linkedin.com/in/pierpaolo-careddu/" target="_blank" rel="noopener" style="color:var(--text-muted);">Pierpaolo Careddu</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== FLOATING WHATSAPP ===== -->
+<a id="whatsapp-float" data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" target="_blank" rel="noopener" aria-label="Ordina su WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- ===== BACK TO TOP ===== -->
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Torna su">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<!-- ===== MOBILE BOTTOM NAV ===== -->
+<nav class="bottom-nav" aria-label="Navigazione principale">
+    <a href="index.html" class="bottom-nav-item">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </a>
+    <a href="menu.html" class="bottom-nav-item">
+        <i class="fa-solid fa-pizza-slice"></i>
+        <span>Menu</span>
+    </a>
+    <a href="metodo.html" class="bottom-nav-item">
+        <i class="fa-solid fa-star"></i>
+        <span>Il Metodo</span>
+    </a>
+    <a href="contatti.html" class="bottom-nav-item active">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Contatti</span>
+    </a>
+</nav>
+
+<!-- ===== COOKIE BANNER ===== -->
+<div id="cookie-banner" style="display:none;">
+    <p>Utilizziamo cookie tecnici e, previo consenso, cookie di terze parti (Google Maps). 
+       <a href="cookie.html">Cookie Policy</a> · <a href="privacy.html">Privacy Policy</a></p>
+    <div class="cookie-buttons">
+        <button class="btn-cookie-reject" id="cookie-reject">Rifiuta</button>
+        <button class="btn-cookie-accept" id="cookie-accept">Accetta</button>
+    </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+(function () {
+    var header = document.getElementById('main-header');
+    window.addEventListener('scroll', function () {
+        header.classList.toggle('scrolled', window.scrollY > 60);
+        var btt = document.getElementById('back-to-top');
+        if (btt) btt.classList.toggle('visible', window.scrollY > 300);
+    }, { passive: true });
+
+    var btn = document.getElementById('hamburger');
+    var menu = document.getElementById('mobile-menu');
+    if (btn && menu) {
+        btn.addEventListener('click', function () { btn.classList.toggle('open'); menu.classList.toggle('open'); });
+    }
+
+    if ('IntersectionObserver' in window) {
+        var animObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    animObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -32px 0px' });
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            animObserver.observe(el);
+        });
+    } else {
+        function checkVisible() {
+            document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(function (el) {
+                if (el.getBoundingClientRect().top < window.innerHeight - 40) el.classList.add('visible');
+            });
+        }
+        window.addEventListener('scroll', checkVisible, { passive: true });
+        window.addEventListener('load', checkVisible);
+        setTimeout(checkVisible, 200);
+    }
+
+    // Cookie banner
+    var consent = localStorage.getItem('cookieConsent');
+    var banner = document.getElementById('cookie-banner');
+    if (!consent && banner) setTimeout(function () { banner.style.display = 'flex'; }, 1500);
+    var acceptBtn = document.getElementById('cookie-accept');
+    var rejectBtn = document.getElementById('cookie-reject');
+    if (acceptBtn) acceptBtn.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'accepted');
+        banner.style.display = 'none';
+        if (typeof window.loadConsentedMap === 'function') window.loadConsentedMap();
+    });
+    if (rejectBtn) rejectBtn.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'rejected');
+        banner.style.display = 'none';
+    });
+
+    // Pulsante carica mappa manualmente
+    var btnMap = document.getElementById('btn-load-map');
+    if (btnMap) btnMap.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'accepted');
+        if (typeof window.loadConsentedMap === 'function') window.loadConsentedMap();
+        banner.style.display = 'none';
+    });
+})();
+</script>
+</body>
+</html>

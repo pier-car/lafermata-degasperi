@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Cookie Policy — Romana Mia</title>
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="main-header">
+    <div class="container nav-wrapper">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">🍕</div>
+            <span><em>Romana</em> Mia</span>
+        </a>
+        <nav class="desktop-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="metodo.html">Il Metodo</a>
+            <a href="contatti.html">Contatti</a>
+        </nav>
+    </div>
+</header>
+
+<section class="legal-page">
+    <div class="container">
+        <div class="legal-content">
+            <h1>Cookie Policy</h1>
+            <span class="last-update">Ultimo aggiornamento: gennaio 2025</span>
+
+            <h2>1. Cosa sono i Cookie</h2>
+            <p>I cookie sono piccoli file di testo che i siti web salvano sul tuo browser quando li visiti. Permettono al sito di ricordare le tue preferenze e di funzionare correttamente.</p>
+
+            <h2>2. Tipologie di Cookie Utilizzati</h2>
+
+            <h2>2.1 Cookie Tecnici (necessari)</h2>
+            <p>Questi cookie sono indispensabili per il funzionamento del sito. Non richiedono consenso.</p>
+            <ul>
+                <li><strong>cookieConsent</strong> — Memorizza la tua scelta riguardo ai cookie (localStorage). Durata: permanente fino alla cancellazione.</li>
+            </ul>
+
+            <h2>2.2 Cookie di Terze Parti (previo consenso)</h2>
+            <p>Questi cookie vengono attivati solo se accetti esplicitamente tramite il banner cookie.</p>
+            <ul>
+                <li><strong>Google Maps</strong> — Utilizzato nella pagina Contatti per visualizzare la mappa interattiva della nostra sede. Google può raccogliere dati in conformità con la propria <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.</li>
+            </ul>
+
+            <h2>3. Come Gestire i Cookie</h2>
+            <p>Puoi modificare le tue preferenze in qualsiasi momento:</p>
+            <ul>
+                <li><strong>Dal banner</strong>: alla prima visita sul sito compare un banner che ti permette di accettare o rifiutare i cookie non tecnici.</li>
+                <li><strong>Dal browser</strong>: puoi eliminare o bloccare i cookie dalle impostazioni del tuo browser.</li>
+                <li><strong>Cancellando i dati</strong>: puoi eliminare la scelta memorizzata cancellando il localStorage del browser.</li>
+            </ul>
+
+            <h2>4. Rifiuto dei Cookie di Terze Parti</h2>
+            <p>Se rifiuti i cookie di Google Maps, la mappa sulla pagina Contatti non verrà caricata. Potrai comunque aprire Google Maps direttamente tramite il pulsante "Come Arrivare".</p>
+
+            <h2>5. Link Utili</h2>
+            <ul>
+                <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener">Privacy Policy di Google</a></li>
+                <li><a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Opt-out da Google Analytics</a></li>
+                <li><a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">Garante per la protezione dei dati personali</a></li>
+            </ul>
+
+            <h2>6. Contatti</h2>
+            <p>Per qualsiasi domanda sui cookie e sulla privacy: <a href="mailto:info@romanamia.it">info@romanamia.it</a></p>
+        </div>
+    </div>
+</section>
+
+<footer style="background: var(--bg-surface); border-top: 1px solid var(--border-subtle); padding: 32px 0;">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px;">
+        <p style="color:var(--text-muted); font-size:0.82rem; font-family:'Inter',sans-serif;">© <span data-anno></span> Romana Mia — P.IVA IT10123456789</p>
+        <div style="display:flex; gap:20px;">
+            <a href="privacy.html" style="color:var(--text-muted); font-size:0.82rem; font-family:'Inter',sans-serif;">Privacy Policy</a>
+            <a href="cookie.html" style="color:var(--accent); font-size:0.82rem; font-family:'Inter',sans-serif;">Cookie Policy</a>
+            <a href="index.html" style="color:var(--text-muted); font-size:0.82rem; font-family:'Inter',sans-serif;">Home</a>
+        </div>
+    </div>
+</footer>
+
+<script src="config.js"></script>
+<script>
+document.getElementById('main-header') && window.addEventListener('scroll', function () {
+    document.getElementById('main-header').classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+</script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">    <title>Galleria — Romana Mia, Pizza al Taglio Gourmet Torino</title>
+    <meta name="description" content="Galleria fotografica di Romana Mia: pizze classiche, gourmet e stagionali. Guarda le nostre creazioni prima di venire a trovarci a Torino.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Galleria — Romana Mia">
+    <meta property="og:description" content="Le nostre pizze in foto: classiche, gourmet e stagionali.">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="main-header">
+    <div class="container nav-wrapper">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">🍕</div>
+            <span><em>Romana</em> Mia</span>
+        </a>
+        <nav class="desktop-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="metodo.html">Il Metodo</a>
+            <a href="contatti.html">Contatti</a>
+        </nav>
+        <div class="header-right">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="phone-cta">
+                <i class="fa-solid fa-phone"></i>
+                <span data-config="telefono">333 323 0516</span>
+            </a>
+            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i> Ordina
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="menu.html"><i class="fa-solid fa-pizza-slice"></i> Menu</a>
+        <a href="metodo.html"><i class="fa-solid fa-star"></i> Il Metodo</a>
+        <a href="contatti.html"><i class="fa-solid fa-location-dot"></i> Contatti</a>
+        <div class="mobile-cta">
+            <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Ordina su WhatsApp</a>
+        </div>
+    </nav>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Galleria</span>
+        </div>
+        <span class="hero-eyebrow">Le Nostre Pizze in Foto</span>
+        <h1>Galleria 📸</h1>
+        <p>Un assaggio visivo delle nostre pizze. Classiche, gourmet e stagionali — tutte fatte con amore ogni giorno.</p>
+    </div>
+</section>
+
+<!-- ===== GALLERY SECTION ===== -->
+<section class="gallery-section">
+    <div class="container">
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">Tutte</button>
+            <button class="filter-btn" data-filter="classiche">Classiche 🍅</button>
+            <button class="filter-btn" data-filter="gourmet">Gourmet ⭐</button>
+            <button class="filter-btn" data-filter="ingredienti">Ingredienti 🌿</button>
+        </div>
+
+        <div class="gallery-full-grid" id="gallery-grid">
+            <div class="gallery-full-item animate-on-scroll" data-category="classiche" data-full="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop" alt="Pizza Teglia Romana" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Pizza in Teglia</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="classiche" data-full="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop" alt="Pizza al Taglio" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Pizza al Taglio</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="classiche" data-full="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?q=80&w=800&auto=format&fit=crop" alt="Margherita Scrocchiarella" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Margherita Scrocchiarella</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="gourmet" data-full="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop" alt="Pizza Gourmet" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Pizza Gourmet</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="gourmet" data-full="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?q=80&w=800&auto=format&fit=crop" alt="Pizza Gourmet Dettaglio" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Dettaglio Gourmet</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="ingredienti" data-full="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?q=80&w=800&auto=format&fit=crop" alt="Ingredienti Freschi" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Ingredienti Selezionati</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="classiche" data-full="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?q=80&w=800&auto=format&fit=crop" alt="Pizza in Forno" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>Pizza in Forno</p></div>
+            </div>
+            <div class="gallery-full-item animate-on-scroll" data-category="gourmet" data-full="https://images.unsplash.com/photo-1595854341625-f33ee10dbf5f?q=80&w=1200&auto=format&fit=crop">
+                <img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf5f?q=80&w=800&auto=format&fit=crop" alt="Pizza Condita" loading="lazy">
+                <div class="item-overlay"><span>🔍</span><p>La Pizza Pronta</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section" style="padding: 80px 0;">
+    <div class="container">
+        <div class="cta-box animate-on-scroll" style="max-width:680px; margin:0 auto;">
+            <h2>Ti è venuta fame? 🤤</h2>
+            <p>Passa a trovarci o ordinaci su WhatsApp. Ti aspettiamo ogni giorno!</p>
+            <div class="cta-buttons">
+                <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" class="btn-whatsapp" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-whatsapp"></i> Ordina su WhatsApp
+                </a>
+                <a href="menu.html" class="btn-red">
+                    <i class="fa-solid fa-pizza-slice"></i> Vedi il Menu
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">🍕</div>
+                    <span><em>Romana</em> Mia</span>
+                </a>
+                <p>La vera pizza romana in teglia a Torino.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/pizzeriaromanamia/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigazione</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="metodo.html">Il Metodo</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Orari</h4>
+                <ul>
+                    <li><span data-config="orariSettimana">Lun–Sab: 11:30–15:00</span></li>
+                    <li><span data-config="orariSabato">Domenica: Chiuso</span></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contatti</h4>
+                <ul>
+                    <li><a data-config-href="tel:{telefonoHref}" href="#"><i class="fa-solid fa-phone fa-xs"></i> <span data-config="telefono">333 323 0516</span></a></li>
+                    <li><a href="mailto:info@romanamia.it"><i class="fa-solid fa-envelope fa-xs"></i> info@romanamia.it</a></li>
+                    <li><span><i class="fa-solid fa-location-dot fa-xs"></i> Via Marco Polo, 12/C, Torino</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span data-anno></span> <span data-config="nomeAzienda">Romana Mia</span> — P.IVA <span data-config="pIva">IT10123456789</span></p>
+            <div class="footer-legal">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="cookie.html">Cookie Policy</a>
+            </div>
+            <p style="font-size:0.75rem; color:var(--text-muted); font-family:'Inter',sans-serif; margin-top:8px;">Design &amp; Sviluppo: <a href="https://www.linkedin.com/in/pierpaolo-careddu/" target="_blank" rel="noopener" style="color:var(--text-muted);">Pierpaolo Careddu</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Chiudi">&times;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Pizza Romana Mia">
+</div>
+
+<!-- ===== FLOATING WHATSAPP ===== -->
+<a id="whatsapp-float" data-config-href="https://wa.me/{whatsapp}?text={whatsappMessaggioEncoded}" href="#" target="_blank" rel="noopener" aria-label="Ordina su WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- ===== BACK TO TOP ===== -->
+<a id="back-to-top" href="#" aria-label="Torna su">
+    <i class="fa-solid fa-chevron-up"></i>
+</a>
+
+<!-- ===== MOBILE BOTTOM NAV ===== -->
+<nav class="bottom-nav" aria-label="Navigazione principale">
+    <a href="index.html" class="bottom-nav-item">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </a>
+    <a href="menu.html" class="bottom-nav-item">
+        <i class="fa-solid fa-pizza-slice"></i>
+        <span>Menu</span>
+    </a>
+    <a href="metodo.html" class="bottom-nav-item">
+        <i class="fa-solid fa-star"></i>
+        <span>Il Metodo</span>
+    </a>
+    <a href="contatti.html" class="bottom-nav-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Contatti</span>
+    </a>
+</nav>
+
+<!-- ===== COOKIE BANNER ===== -->
+<div id="cookie-banner" style="display:none;">
+    <p>Utilizziamo cookie tecnici e, previo consenso, cookie di terze parti. <a href="cookie.html">Cookie Policy</a></p>
+    <div class="cookie-buttons">
+        <button class="btn-cookie-reject" id="cookie-reject">Rifiuta</button>
+        <button class="btn-cookie-accept" id="cookie-accept">Accetta</button>
+    </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+(function () {
+    var header = document.getElementById('main-header');
+    window.addEventListener('scroll', function () {
+        header.classList.toggle('scrolled', window.scrollY > 60);
+        var btt = document.getElementById('back-to-top');
+        if (btt) btt.classList.toggle('visible', window.scrollY > 300);
+    }, { passive: true });
+
+    var btn = document.getElementById('hamburger');
+    var menu = document.getElementById('mobile-menu');
+    if (btn && menu) {
+        btn.addEventListener('click', function () { btn.classList.toggle('open'); menu.classList.toggle('open'); });
+    }
+
+    if ('IntersectionObserver' in window) {
+        var animObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    animObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: '0px 0px -32px 0px' });
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+            animObserver.observe(el);
+        });
+    } else {
+        function checkVisible() {
+            document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(function (el) {
+                if (el.getBoundingClientRect().top < window.innerHeight - 40) el.classList.add('visible');
+            });
+        }
+        window.addEventListener('scroll', checkVisible, { passive: true });
+        window.addEventListener('load', checkVisible);
+        setTimeout(checkVisible, 200);
+    }
+
+    // --- Gallery filter ---
+    var filterBtns = document.querySelectorAll('.filter-btn');
+    var items = document.querySelectorAll('.gallery-full-item');
+    filterBtns.forEach(function (fb) {
+        fb.addEventListener('click', function () {
+            filterBtns.forEach(function (b) { b.classList.remove('active'); });
+            fb.classList.add('active');
+            var filter = fb.getAttribute('data-filter');
+            items.forEach(function (item) {
+                if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // --- Lightbox ---
+    var lightbox = document.getElementById('lightbox');
+    var lbImg = document.getElementById('lightbox-img');
+    var lbClose = document.getElementById('lightbox-close');
+    items.forEach(function (item) {
+        item.addEventListener('click', function () {
+            lbImg.src = item.getAttribute('data-full') || item.querySelector('img').src;
+            lightbox.classList.add('open');
+            document.body.style.overflow = 'hidden';
+        });
+    });
+    function closeLightbox() {
+        lightbox.classList.remove('open');
+        document.body.style.overflow = '';
+        lbImg.src = '';
+    }
+    if (lbClose) lbClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', function (e) { if (e.target === lightbox) closeLightbox(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeLightbox(); });
+
+    // Cookie banner
+    var consent = localStorage.getItem('cookieConsent');
+    var banner = document.getElementById('cookie-banner');
+    if (!consent && banner) setTimeout(function () { banner.style.display = 'flex'; }, 1500);
+    var acceptBtn = document.getElementById('cookie-accept');
+    var rejectBtn = document.getElementById('cookie-reject');
+    if (acceptBtn) acceptBtn.addEventListener('click', function () { localStorage.setItem('cookieConsent', 'accepted'); banner.style.display = 'none'; });
+    if (rejectBtn) rejectBtn.addEventListener('click', function () { localStorage.setItem('cookieConsent', 'rejected'); banner.style.display = 'none'; });
+})();
+</script>
+</body>
+</html>
