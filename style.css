@@ -1,6 +1,6 @@
 /* ============================================================
-   ROMANA MIA — Pizza al Taglio Gourmet
-   Dark Elegance | Cormorant Garamond + Inter | Gold Accent
+   LA FERMATA — Farinata e Pizza Restaurant · Torino
+   Dark Elegance | Cormorant Garamond + Inter | Tram Amber
    ============================================================ */
 
 /* --- 1. GOOGLE FONTS IMPORT --- */
@@ -8,27 +8,27 @@
 
 /* --- 2. VARIABLES & RESET --- */
 :root {
-    --bg-primary:    #0A0A0A;
-    --bg-secondary:  #111111;
-    --bg-surface:    #181818;
-    --bg-card:       #1C1C1C;
-    --accent:        #C5A059;
-    --accent-hover:  #d4b46b;
-    --text-primary:  #F8F8F2;
-    --text-secondary:#A8A090;
-    --text-muted:    #58534E;
-    --border:        rgba(197, 160, 89, 0.18);
+    --bg-primary:    #0A0909;
+    --bg-secondary:  #100E0C;
+    --bg-surface:    #1A1612;
+    --bg-card:       #1E1A15;
+    --accent:        #D4691E;
+    --accent-hover:  #E07B30;
+    --text-primary:  #F5EDDF;
+    --text-secondary:#A89B87;
+    --text-muted:    #5C5148;
+    --border:        rgba(212, 105, 30, 0.22);
     --border-subtle: rgba(255, 255, 255, 0.07);
     --shadow-sm:     0 2px 12px rgba(0,0,0,0.4);
     --shadow-md:     0 8px 32px rgba(0,0,0,0.5);
     --shadow-lg:     0 20px 60px rgba(0,0,0,0.6);
-    --shadow-glow:   0 0 48px rgba(197,160,89,0.06);
+    --shadow-glow:   0 0 48px rgba(212,105,30,0.08);
     /* Legacy aliases */
     --primary-red:   var(--accent);
-    --primary-dark:  #0A0A0A;
+    --primary-dark:  #0A0909;
     --text-main:     var(--text-primary);
     --text-light:    var(--text-secondary);
-    --white:         #F8F8F2;
+    --white:         #F5EDDF;
     --border-old:    var(--border);
     --accent-legacy: var(--accent);
 }
@@ -378,7 +378,7 @@ header.scrolled {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1600&auto=format&fit=crop');
+    background-image: url('https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=1600&auto=format&fit=crop');
     background-size: cover;
     background-position: center 40%;
     transform: scale(1.06);
