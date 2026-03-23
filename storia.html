@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Chi Siamo — LA FERMATA · Farinata e Pizza Restaurant Torino</title>
+    <meta name="description" content="La storia di LA FERMATA e la leggenda della Farinata nata dalla Battaglia della Meloria (1284). La nostra passione per la farinata artigianale e la pizza a lievitazione naturale.">
+    <meta name="theme-color" content="#142B1E">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="main-header">
+    <div class="container nav-wrapper">
+        <a href="index.html" class="logo"><div class="logo-icon">🚋</div><span><em>La Fermata</em></span></a>
+        <nav class="desktop-menu">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="storia.html" class="active">Chi Siamo</a>
+            <a href="contatti.html">Contatti</a>
+        </nav>
+        <div class="header-right">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="phone-cta">
+                <i class="fa-solid fa-phone"></i>
+                <span data-config="telefono">011 000 0000</span>
+            </a>
+            <a data-config-href="{theforkUrl}" href="#" class="btn-red" target="_blank" rel="noopener">
+                <i class="fa-solid fa-calendar-check"></i> Prenota
+            </a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Apri menu"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="menu.html"><i class="fa-solid fa-utensils"></i> Menu</a>
+        <a href="storia.html" class="active"><i class="fa-solid fa-book-open"></i> Chi Siamo</a>
+        <a href="contatti.html"><i class="fa-solid fa-location-dot"></i> Contatti</a>
+        <div class="mobile-cta">
+            <a data-config-href="tel:{telefonoHref}" href="#" class="btn-outline"><i class="fa-solid fa-phone"></i> Chiama</a>
+            <a data-config-href="{theforkUrl}" href="#" class="btn-red" target="_blank" rel="noopener"><i class="fa-solid fa-calendar-check"></i> Prenota un Tavolo</a>
+        </div>
+    </nav>
+</header>
+
+<!-- Page Hero -->
+<div class="page-hero">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+            <span>Chi Siamo</span>
+        </div>
+        <h1>La Nostra Storia 🚋</h1>
+        <p>Una fermata speciale nel cuore di Torino. La leggenda della Farinata e la nostra passione per il cibo autentico.</p>
+    </div>
+</div>
+
+<!-- Sezione 1: La Leggenda della Farinata -->
+<section class="metodo-section" style="background: var(--bg-primary);">
+    <div class="container">
+        <div class="metodo-grid animate-on-scroll">
+            <div class="metodo-text">
+                <span class="label">La Leggenda</span>
+                <h2>La Farinata e la Battaglia della Meloria</h2>
+                <p>
+                    L'anno era il <strong>1284</strong>. Le galee di Genova tornavano vittoriose dalla sanguinosa
+                    <strong>Battaglia della Meloria</strong>, caiche di prigionieri pisani e rifornimenti.
+                </p>
+                <p>
+                    Durante una violenta tempesta nel Mar Tirreno, le barche vennero scosse con furia,
+                    e sacchi di <strong>farina di ceci</strong> e anfore di <strong>olio d'oliva</strong> si rovesciarono,
+                    mescolandosi all'acqua salata del mare. Il pastone che ne risultò fu messo ad asciugare al sole dai marinai affamati.
+                </p>
+                <p>
+                    Quel composto, cotto poi nei forni di Genova, divenne dorato e croccante — sorprendentemente buono.
+                    I Genovesi, con arguzia tutta ligure, lo ribattezzarono con scherno
+                    <em>"l'oro di Pisa"</em>. Era nata la <strong>farinata</strong>.
+                </p>
+                <p>
+                    Da quel giorno, questa umile pietanza di ceci, acqua, olio e sale percorse la Penisola
+                    diventando simbolo di semplicità e autenticità. Noi la prepariamo ogni giorno,
+                    fedeli a quella ricetta antica.
+                </p>
+                <div class="metodo-tags">
+                    <span class="metodo-tag">🌾 Farina di ceci italiana</span>
+                    <span class="metodo-tag">🫒 Olio EVO di prima spremitura</span>
+                    <span class="metodo-tag">🔥 Forno ad alta temperatura</span>
+                    <span class="metodo-tag">⏱️ Riposo 12 ore</span>
+                </div>
+            </div>
+            <div class="metodo-image">
+                <img src="https://images.unsplash.com/photo-1548365328-8c6db3220e4c?q=80&w=800&auto=format&fit=crop"
+                     alt="Farinata artigianale de LA FERMATA" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sezione 2: LA FERMATA e il tram -->
+<section class="metodo-section" style="background: var(--bg-secondary);">
+    <div class="container">
+        <div class="metodo-grid reverse animate-on-scroll">
+            <div class="metodo-text">
+                <span class="label">La Nostra Identità</span>
+                <h2>Una Fermata nel Cuore di Torino</h2>
+                <p>
+                    Il nome non è un caso. Siamo nati ai margini di <strong>Corso De Gasperi</strong>, lungo il tracciato
+                    della storica <strong>Linea 15</strong> dei tram torinesi GTT — quei caratteristici tram verde foresta
+                    che per decenni hanno attraversato la città.
+                </p>
+                <p>
+                    Come una fermata del tram, siamo un punto di sosta naturale: un posto dove ci si ferma
+                    volentieri, ci si ritrova, e si riparte rigenerati. La nostra cucina è semplice e autentica,
+                    così come semplici erano le fermate lungo quelle linee urbane.
+                </p>
+                <p>
+                    Le nostre <strong>Pizze Speciali</strong> portano i numeri delle linee tram di Torino —
+                    Linea 1, Linea 15, Linea 71, Linea 18 — un omaggio alla città che amiamo e che ci ospita.
+                </p>
+                <div class="metodo-tags">
+                    <span class="metodo-tag">🚋 Linea 15 De Gasperi</span>
+                    <span class="metodo-tag">📍 Corso De Gasperi, Torino</span>
+                    <span class="metodo-tag">🏙️ Dal <span data-config="annoFondazione">2015</span></span>
+                </div>
+            </div>
+            <div class="metodo-image">
+                <img src="https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?q=80&w=800&auto=format&fit=crop"
+                     alt="Atmosfera de LA FERMATA, Torino" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sezione 3: 5 Motivi -->
+<section style="background: var(--bg-light); padding: 100px 0;">
+    <div class="container">
+        <div class="section-header animate-on-scroll">
+            <span class="section-eyebrow" style="color:var(--accent);">Perché sceglierci</span>
+            <div class="section-divider"></div>
+            <h2 style="color:var(--text-dark);">5 Motivi per Fermarsi</h2>
+            <p style="color:var(--text-dark-sec);">La qualità non è un caso — è il risultato di scelte precise, ogni giorno.</p>
+        </div>
+        <div class="motivi-grid animate-on-scroll">
+            <div class="motivo-card">
+                <div class="motivo-num">01</div>
+                <div class="motivo-titolo">Eccellenza Artigianale</div>
+                <div class="motivo-desc">Ogni pizza e ogni farinata è preparata a mano con cura e rispetto per la tradizione.</div>
+            </div>
+            <div class="motivo-card">
+                <div class="motivo-num">02</div>
+                <div class="motivo-titolo">Lievitazione Naturale</div>
+                <div class="motivo-desc">L'impasto matura almeno 48 ore con lievito madre per una digeribilità superiore.</div>
+            </div>
+            <div class="motivo-card">
+                <div class="motivo-num">03</div>
+                <div class="motivo-titolo">Farine Selezionate</div>
+                <div class="motivo-desc">Utilizziamo farine di qualità, inclusa la versione integrale disponibile con un piccolo supplemento.</div>
+            </div>
+            <div class="motivo-card">
+                <div class="motivo-num">04</div>
+                <div class="motivo-titolo">Ingredienti d'Alta Qualità</div>
+                <div class="motivo-desc">Prodotti DOP, IGP e artigianali scelti dai migliori fornitori piemontesi e italiani.</div>
+            </div>
+            <div class="motivo-card">
+                <div class="motivo-num">05</div>
+                <div class="motivo-titolo">Leggero e Digeribile</div>
+                <div class="motivo-desc">L'impasto a lunga lievitazione rende le nostre pizze straordinariamente leggere e digeribili.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sezione 4: La Doppia Cottura -->
+<section class="metodo-section" style="background: var(--bg-primary);">
+    <div class="container">
+        <div class="section-header animate-on-scroll">
+            <span class="section-eyebrow">Il Cuore del Menu</span>
+            <div class="section-divider"></div>
+            <h2>La Doppia Cottura: Tegamino e Mattone</h2>
+        </div>
+        <div class="about-grid animate-on-scroll">
+            <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:6px; padding:36px;">
+                <h3 style="font-size:1.6rem; color:var(--accent); margin-bottom:14px;">🍕 Al Tegamino</h3>
+                <p style="color:var(--text-secondary); line-height:1.8; font-size:0.95rem;">
+                    La cottura <strong style="color:var(--text-primary);">tipica torinese</strong>. La pizza viene cotta in un
+                    tegamino individuale rotondo, creando un bordo alto e soffice con una base croccante e
+                    dorata. Più spessa e morbida al centro, ideale per chi ama un impasto generoso.
+                </p>
+                <p style="color:var(--text-secondary); line-height:1.8; font-size:0.95rem; margin-top:12px;">
+                    Perfetta per una cena in solitudine o per assaggiare più gusti diversi.
+                </p>
+            </div>
+            <div style="background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:6px; padding:36px;">
+                <h3 style="font-size:1.6rem; color:var(--accent); margin-bottom:14px;">🪨 Al Mattone</h3>
+                <p style="color:var(--text-secondary); line-height:1.8; font-size:0.95rem;">
+                    La cottura <strong style="color:var(--text-primary);">classica napoletana</strong>, direttamente sul mattone
+                    refrattario del forno. Bordi sottili e croccanti, base dorata, con i condimenti che si fondono
+                    perfettamente durante la cottura.
+                </p>
+                <p style="color:var(--text-secondary); line-height:1.8; font-size:0.95rem; margin-top:12px;">
+                    Formato più generoso, ideale da condividere o per chi ama la pizza tradizionale.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-box animate-on-scroll">
+            <h2>Vieni a Scoprirci</h2>
+            <p>Siamo a Torino, in Corso De Gasperi. Prenota il tuo tavolo o passa direttamente — ti aspettiamo!</p>
+            <div class="cta-buttons">
+                <a data-config-href="{theforkUrl}" href="#" class="btn-red" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-calendar-check"></i> Prenota su TheFork
+                </a>
+                <a href="menu.html" class="btn-outline"><i class="fa-solid fa-utensils"></i> Scopri il Menu</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo"><div class="logo-icon">🚋</div><span><em>La Fermata</em></span></a>
+                <p>Farinata artigianale e pizza a doppia cottura. Fermata De Gasperi, Torino.</p>
+                <div class="footer-social">
+                    <a data-config-href="{instagram}" href="#" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a data-config-href="{facebook}" href="#" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="footer-wifi">
+                    <div class="wifi-label"><i class="fa-solid fa-wifi"></i> Wi-Fi Clienti</div>
+                    <span class="wifi-pass" data-config="wifiPassword">fermatadegasperipizzeriafarinata</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigazione</h4>
+                <ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="storia.html">Chi Siamo</a></li><li><a href="contatti.html">Contatti</a></li></ul>
+            </div>
+            <div class="footer-col">
+                <h4>Orari</h4>
+                <ul>
+                    <li><span data-config="orariSettimana">Mar–Ven: 12:00–14:30 · 19:00–22:30</span></li>
+                    <li><span data-config="orariSabato">Sab–Dom: 12:00–15:00 · 19:00–23:00</span></li>
+                    <li><span style="color:var(--text-muted);font-size:0.8rem;">Lunedì: Chiuso</span></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contatti</h4>
+                <ul>
+                    <li><a data-config-href="tel:{telefonoHref}" href="#"><i class="fa-solid fa-phone fa-xs"></i> <span data-config="telefono">011 000 0000</span></a></li>
+                    <li><a href="mailto:info@lafermata.eu"><i class="fa-solid fa-envelope fa-xs"></i> info@lafermata.eu</a></li>
+                    <li><span><i class="fa-solid fa-location-dot fa-xs"></i> <span data-config="indirizzo">Corso De Gasperi, 15</span>, Torino</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© <span data-anno></span> <span data-config="nomeAzienda">LA FERMATA</span> — P.IVA <span data-config="pIva">IT00000000000</span></p>
+            <div class="footer-legal"><a href="privacy.html">Privacy Policy</a><a href="cookie.html">Cookie Policy</a></div>
+        </div>
+    </div>
+</footer>
+
+<div class="sticky-prenota">
+    <a data-config-href="{theforkUrl}" href="#" target="_blank" rel="noopener">
+        <i class="fa-solid fa-calendar-check"></i> Prenota un Tavolo
+    </a>
+</div>
+
+<nav class="bottom-nav">
+    <a href="index.html" class="bottom-nav-item"><i class="fa-solid fa-house"></i><span>Home</span></a>
+    <a href="menu.html" class="bottom-nav-item"><i class="fa-solid fa-utensils"></i><span>Menu</span></a>
+    <a href="storia.html" class="bottom-nav-item active"><i class="fa-solid fa-book-open"></i><span>Chi Siamo</span></a>
+    <a href="contatti.html" class="bottom-nav-item"><i class="fa-solid fa-location-dot"></i><span>Contatti</span></a>
+</nav>
+
+<div id="cookie-banner" style="display:none;">
+    <p>Utilizziamo cookie tecnici e cookie di terze parti (Google Maps) previo consenso. <a href="cookie.html">Cookie Policy</a></p>
+    <div class="cookie-buttons">
+        <button class="btn-cookie-reject" id="cookie-reject">Rifiuta</button>
+        <button class="btn-cookie-accept" id="cookie-accept">Accetta</button>
+    </div>
+</div>
+
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Torna su">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<script src="config.js"></script>
+<script>
+(function () {
+    var header = document.getElementById('main-header');
+    window.addEventListener('scroll', function () {
+        header.classList.toggle('scrolled', window.scrollY > 60);
+        var btt = document.getElementById('back-to-top');
+        if (btt) btt.classList.toggle('visible', window.scrollY > 300);
+    }, { passive: true });
+    var btn = document.getElementById('hamburger');
+    var menu = document.getElementById('mobile-menu');
+    if (btn && menu) {
+        btn.addEventListener('click', function () { btn.classList.toggle('open'); menu.classList.toggle('open'); });
+        menu.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { btn.classList.remove('open'); menu.classList.remove('open'); }); });
+    }
+    if ('IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+            entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+        }, { threshold: 0.10 });
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) { obs.observe(el); });
+    }
+    // Fallback: make ALL elements visible after 1s (handles full-page screenshots, slow JS, etc.)
+    setTimeout(function () {
+        document.querySelectorAll('.animate-on-scroll:not(.visible)').forEach(function(el) { el.classList.add('visible'); });
+    }, 800);
+    var consent = localStorage.getItem('cookieConsent');
+    var banner = document.getElementById('cookie-banner');
+    if (!consent && banner) setTimeout(function () { banner.style.display = 'flex'; }, 1500);
+    var a = document.getElementById('cookie-accept');
+    var r = document.getElementById('cookie-reject');
+    if (a) a.addEventListener('click', function () { localStorage.setItem('cookieConsent','accepted'); banner.style.display='none'; });
+    if (r) r.addEventListener('click', function () { localStorage.setItem('cookieConsent','rejected'); banner.style.display='none'; });
+})();
+</script>
+</body>
+</html>

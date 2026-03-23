@@ -1,9 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="15" fill="#E63329"/>
-  <circle cx="16" cy="16" r="11" fill="#F5C518"/>
-  <circle cx="16" cy="16" r="7" fill="#E63329"/>
-  <circle cx="12" cy="13" r="2" fill="#8B1A1A"/>
-  <circle cx="19" cy="12" r="1.5" fill="#8B1A1A"/>
-  <circle cx="14" cy="18" r="1.5" fill="#8B1A1A"/>
-  <circle cx="20" cy="18" r="2" fill="#8B1A1A"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Tram car body (Verde Foresta) -->
+  <rect x="4" y="20" width="56" height="28" rx="5" fill="#1F3D2C"/>
+  <!-- Windows row -->
+  <rect x="10" y="26" width="10" height="10" rx="2" fill="#F2E8C8"/>
+  <rect x="27" y="26" width="10" height="10" rx="2" fill="#F2E8C8"/>
+  <rect x="44" y="26" width="10" height="10" rx="2" fill="#F2E8C8"/>
+  <!-- Door -->
+  <rect x="21" y="30" width="6" height="18" rx="1" fill="#C8591A"/>
+  <!-- Top / roof -->
+  <rect x="8" y="16" width="48" height="6" rx="3" fill="#142B1E"/>
+  <!-- Pantograph / antenna -->
+  <line x1="32" y1="16" x2="32" y2="8" stroke="#C8591A" stroke-width="2"/>
+  <line x1="24" y1="8" x2="40" y2="8" stroke="#F2E8C8" stroke-width="2.5"/>
+  <!-- Wheels -->
+  <circle cx="16" cy="50" r="6" fill="#1A3526" stroke="#C8591A" stroke-width="2"/>
+  <circle cx="48" cy="50" r="6" fill="#1A3526" stroke="#C8591A" stroke-width="2"/>
+  <!-- Rail -->
+  <rect x="2" y="55" width="60" height="3" rx="1.5" fill="#6B7A6D"/>
+  <!-- Line number "15" -->
+  <text x="32" y="43" font-family="monospace" font-size="8" font-weight="bold" fill="#F2E8C8" text-anchor="middle">15</text>
 </svg>
